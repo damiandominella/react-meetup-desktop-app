@@ -1,3 +1,4 @@
+import { Heading } from "@react-meetup/ui-kit.typography.heading";
 import React from "react";
 import { Code } from "./components/code";
 import { Container } from "./components/container";
@@ -20,7 +21,6 @@ function App() {
           repository, without worrying about <strong>versioning</strong>,{" "}
           <strong>compiling</strong>, <strong>package.json</strong> etc...
         </Text>
-
         <div
           style={{
             display: "inline-flex",
@@ -41,6 +41,27 @@ function App() {
 
           <Code>bit link --rewire</Code>
         </div>
+        <br />
+        <br />
+        <Heading level={2}>What's included?</Heading>
+        <Text>
+          <ul>
+            <li>
+              <strong>Component source-control</strong>: essentially, git for
+              individual components.
+            </li>
+            <br />
+            <li>
+              <strong>Isolated component development</strong>: that includes
+              isolated rendering, tests and builds.
+            </li>
+            <br />
+            <li>
+              <strong>Component dependency management</strong>: auto-generated
+              component dependency graphs, and smart dependency management.
+            </li>
+          </ul>
+        </Text>
       </Container>
     </div>
   );
