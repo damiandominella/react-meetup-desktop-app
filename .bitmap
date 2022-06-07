@@ -15,9 +15,21 @@
         "mainFile": "index.ts",
         "rootDir": "src/components/button"
     },
+    "code": {
+        "scope": "react-meetup.ui-kit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/code"
+    },
+    "container": {
+        "scope": "react-meetup.ui-kit",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "src/components/container"
+    },
     "hero": {
         "scope": "react-meetup.ui-kit",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "src/components/hero"
     },
@@ -29,13 +41,13 @@
     },
     "toolbar": {
         "scope": "react-meetup.ui-kit",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "src/components/toolbar"
     },
     "typography/heading": {
         "scope": "react-meetup.ui-kit",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "src/components/typography/heading"
     },
